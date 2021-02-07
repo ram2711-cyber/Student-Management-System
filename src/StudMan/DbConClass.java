@@ -12,7 +12,7 @@ public class DbConClass {
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/studentmanager",
                     "root",
-                    "RamB#@2711"
+                    "*******"
             );
             return con;
         } catch (Exception e){
